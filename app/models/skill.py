@@ -1,8 +1,6 @@
 from sqlalchemy import Column, Integer, String
-# from ..database import Base
 from app.database import Base
 from sqlalchemy.orm import relationship
-# from .associations import job_skills
 from app.models.associations import job_skills
 
 

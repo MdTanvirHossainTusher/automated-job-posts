@@ -1,7 +1,5 @@
 from sqlalchemy import Column, ForeignKey, Integer, Table
 from app.database import Base
-# from ..database import Base
-
 
 job_skills = Table( 
     "job_skills",
