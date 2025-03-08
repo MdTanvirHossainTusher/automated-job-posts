@@ -13,7 +13,7 @@ class Job(Base):
     job_url = Column(String)
     job_description = Column(String)
     application_deadline = Column(Date)
-    requried_experience = Column(String)
+    required_experience = Column(String)
     location = Column(String)
     company_id = Column(Integer, ForeignKey('companies.id'))
 

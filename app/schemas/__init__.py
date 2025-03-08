@@ -1,1 +1,2 @@
 from app.schemas.company_schema import CompanyBase, CompanyCreateRequest, CompanyUpdateRequest, CompanyResponse, CompanyDetailResponse
+from app.schemas.career_site_schema import CareerSiteBase, CareerSiteCreateRequest, CareerSiteUpdateRequest, CareerSiteResponse

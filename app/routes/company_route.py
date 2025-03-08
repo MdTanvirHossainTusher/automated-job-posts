@@ -5,7 +5,7 @@ from fastapi import Depends
 from app.schemas.company_schema import CompanyCreateRequest, CompanyUpdateRequest, CompanyResponse, CompanyDetailResponse
 from app.services.company_service import CompanyService
 
-router = APIRouter(prefix="/company", tags=["Company"])
+router = APIRouter(prefix="/companies", tags=["Company"])
 
 
 @router.get("", response_model=list[CompanyResponse])
